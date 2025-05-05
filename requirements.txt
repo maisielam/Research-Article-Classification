@@ -1,0 +1,28 @@
+### Core Libraries
+pandas==2.0.3
+numpy==1.24.3
+scikit-learn==1.2.2
+scipy==1.10.1
+
+### Deep Learning (LSTM/Transformer)
+torch==2.0.1+cu118  # CUDA 11.8 version
+torchtext==0.15.2
+torchvision==0.15.2
+pytorch-lightning==2.0.0
+torchmetrics==0.11.4
+transformers==4.30.0
+
+### NLP Processing
+nltk==3.8.1
+gensim==4.3.2  # For GloVe embeddings (if needed)
+sentence-transformers==2.2.2
+
+### Utilities
+jupyter==1.0.0
+matplotlib==3.7.2
+seaborn==0.12.2
+tqdm==4.65.0
+pyarrow==12.0.0  # For parquet files
+
+### Class Imbalance Handling
+imbalanced-learn==0.10.1
